@@ -8,6 +8,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 14px;
 }
 .nav{
     position: fixed;
@@ -44,6 +45,12 @@
     transition: .1s linear;
     /* border: 1px solid red; */
 }
+.opt ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+
+}
 .head .nav{
     transition: .3s linear;
 }
@@ -54,23 +61,56 @@
 .title h1{
     padding-top: 23px;
     padding-bottom: -1px;
-    font-size: 100px;
+    font-size: 8rem;
     color:#fa155a;   
     font-family: 'Zen Dots', cursive;
     /* border: 1px solid red; */
 }
 .title span{
     color:aliceblue;
+    font-size: 4rem;
 }
-.title p{
+.title .t1{
     position: relative;
-    top:-22px;
+    top:-1.3rem;
     left:0px;
     font:15px;
     color:#d4d4d7;
 }
-.nav .opt ul li:hover{
+.nav .opt ul li a:hover{
     color:#b6053a;
+}
+.active{
+    background-color:#41131c;
+    border-radius: 2rem;
+    padding: 2px 0px;
+}
+.title .oop1{
+    color:#fa155a;
+    font-size: 2.6rem;
+    padding: 10px 0px;
+    font-family: 'Zen Dots', cursive;
+}
+.title .cont{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding: 15px 0px;
+}
+.cont .l1{
+}
+.FOJ1{
+    height: 30rem;
+    width: 40rem;
+    margin: 20px;
+}
+
+@media screen and (max-width:800px) {
+    *{
+        font-size: 8px;
+    }
+    .title h1{
+        font-size: 8rem;
+    }
 }
 
 
