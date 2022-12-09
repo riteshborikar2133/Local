@@ -115,11 +115,17 @@
 
 @media screen and (max-width:400px) {
     *{
-        font-size: 6px;
+        font-size: 5px;
     }
     .title h1{
         font-size: 8rem;
     }
+    .FOJ1{
+        height: 15rem;
+        width: 20rem;
+        margin: 20px;
+    }
+    
 }
 
 
