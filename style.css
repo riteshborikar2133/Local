@@ -136,7 +136,7 @@
     font-weight: bold;
 }
 .dsaback{
-    background: url("best-data-structures-algorithms-courses.png");
+    background: url("/best-data-structures-algorithms-courses.png");
     /* background-size:cover ; */
 }
 @media screen and (max-width:800px) {
