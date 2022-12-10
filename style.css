@@ -15,7 +15,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: 4rem;
     background-color: #121213;
     box-shadow: 0.2px 0.2px 3px rgb(50, 50, 50);
     margin-bottom: -3px;
@@ -25,7 +25,7 @@
     align-items: center;
 }
 .head{
-    margin-top: 60px;
+    margin-top: 4rem;
     background-color: var(--black);
     box-sizing: border-box;
     padding: 0px 10px;
@@ -83,7 +83,7 @@
 .active{
     background-color:#41131c;
     border-radius: 2rem;
-    padding: 2px 0px;
+    padding: 2px 8px;
 }
 .title .oop1{
     color:#fa155a;
@@ -103,22 +103,51 @@
     width: 40rem;
     margin: 20px;
 }
+.option{
+    /* border: 1px solid white; */
+    color: aliceblue;
+    padding: 3rem;
+}
+.unitgrp{
+    /* border: 1px solid #C3073F; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 
+}
+.unit{
+    border: 3px solid #fa155a;
+    border-radius: 0.5rem;
+    width: 7.6rem;
+    height: 2.6rem;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    font-family: 'Zen Dots', cursive;
+    background:transparent;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.unit:hover{
+    box-shadow: inset 11.6rem 0 0 0 #fa155a, 4px 2px 1px #656569;
+    color: black;
+    font-weight: bold;
+}
+.dsaback{
+    background: url("/best-data-structures-algorithms-courses.png");
+    /* background-size:cover ; */
+}
 @media screen and (max-width:800px) {
     *{
-        font-size: 8px;
-    }
-    .title h1{
-        font-size: 8rem;
+        font-size: 13px;
     }
 }
 
 @media screen and (max-width:400px) {
     *{
-        font-size: 5px;
-    }
-    .title h1{
-        font-size: 8rem;
+        font-size: 9px;
     }
     .FOJ1{
         height: 15rem;
